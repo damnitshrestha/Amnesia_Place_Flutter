@@ -1,16 +1,9 @@
-# amnesia_place
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+'Amnesia Place' is a utility app I created using Flutter & Dart. This app is for those who suffer from Amnesia, the loss of memories, such as facts, information, and experiences.  
+This app allows the person to add their frequently visited places to their list on this app to have an idea of the places they might forget unwillingly in the future. This app enables the user to save the place's name, location on a map, and a photo to help them remember it.
+Users can mark the place(s) on the map and save it, and they may even choose their current location to save that place. 
+This app uses MapBox to fuel the mapping engine. It creates a map on which the user has the allowance to mark any place. I have even put a feature through which the corresponding address (to the location marked by the user) is displayed and other details, which facilitates the user even more. The user has two options to add the location : 
+1) Choose Current Location: This feature demands the device for GPS services so that an API request can be sent to MapBox. Further, it sends the pair of Longitude & Latitude, which returns a preview Image of the map and is displayed on the screen so that the user can cross-check if the location added is correct or not.
+2) Choose On Map: When the user taps on this feature, a map is displayed on full screen, and the user may tap on their place of choice by searching it on the map and setting a marker on that specific location.
+The app uses SQL to save all the information on the device's local memory so that there is no chance of loss of data.
+I have incorporated another feature that enables the user to click a live picture through their devices' camera and add it to their place so that the user may remember the place by looking at the picture which they clicked.
+This utility app helps the person suffering from Amnesia and provides a facility for them to make sure that they do not suffer anymore, at least when it comes to their favorite places!
